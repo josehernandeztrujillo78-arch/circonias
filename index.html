@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratorio Dental de Circonia</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Laboratorio dental especializado en circonia. Coronas y estructuras CAD/CAM para odontólogos. Entrega rápida y alta estética.">
+  <meta property="og:title" content="Laboratorio Dental Especializado en Circonia">
+  <meta property="og:description" content="Coronas y estructuras CAD/CAM para odontólogos. Alta estética y entrega rápida.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Laboratorio Dental Especializado en Circonia</h1>
+    <h2>Coronas y estructuras en circonia para odontólogos</h2>
+    <a href="https://wa.me/523313990776?text=Hola%20quiero%20cotizar%20circonias%20dentales" target="_blank" class="btn btn--success btn--small">
+      Cotizar por WhatsApp
+    </a>
+  </header>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+ <section class="section">
+  <h2>¿Por qué trabajar con nosotros?</h2>
+  <p>Calidad, precisión y confianza para tu práctica dental</p>
+
+  <div class="features">
+    <div class="feature-card">
+      <span aria-hidden="true">🧪</span>
+      <h3>Precisión CAD/CAM</h3>
+      <p>Ajustes exactos y consistentes gracias a tecnología digital de alta precisión.</p>
+    </div>
+
+    <div class="feature-card">
+      <span aria-hidden="true">🦷</span>
+      <h3>Alta Estética</h3>
+      <p>Circonias con acabado natural que se integran perfectamente en la sonrisa del paciente.</p>
+    </div>
+
+    <div class="feature-card">
+      <span aria-hidden="true">🚚</span>
+      <h3>Entrega Rápida</h3>
+      <p>Procesos optimizados para cumplir tiempos y apoyar tu agenda clínica.</p>
+    </div>
+
+    <div class="feature-card">
+      <span aria-hidden="true">🤝</span>
+      <h3>Atención Personalizada</h3>
+      <p>Asesoría directa para cada caso, asegurando soluciones a medida para tus pacientes.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PRECIO -->
+ <section class="price-section">
+  <div class="price">
+    <h2>$1,100 MXN</h2>
+    <span>Precio por unidad · Mayoreo disponible</span>
+  </div>
+</section>
+
+
+  <!-- GALERÍA -->
+  <section class="section">
+    <h2>Tecnología y Estética</h2>
+    <p>Procesos y resultados que reflejan precisión y estética.</p>
+
+    <div id="galeriaCarrusel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true" data-bs-touch="true">
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src="images/3.jpeg" class="d-block w-100" alt="Corona dental de circonia" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/5.jpeg" class="d-block w-100" alt="Corona dental estética" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/1.jpeg" class="d-block w-100" alt="Trabajo dental en circonia" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpeg" class="d-block w-100" alt="Laboratorio dental CAD CAM" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/6.jpeg" class="d-block w-100" alt="Trabajo dental en circonia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev" aria-label="Imagen anterior">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next" aria-label="Imagen siguiente">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section class="section">
+    <h2>Cotiza tus circonias</h2>
+    <p>Envíanos los datos del caso y te respondemos por WhatsApp</p>
+
+    <form id="formulario" class="formulario">
+      <input type="text" id="nombre" placeholder="Nombre del doctor" required>
+      <input type="tel" id="telefono" placeholder="Teléfono / WhatsApp" required>
+      <textarea id="mensaje" rows="4" placeholder="Describe el caso (opcional)"></textarea>
+      <button type="submit" class="btn">Cotizar por WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/523313990776" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <img src="images/whatsapp.png" alt="WhatsApp" />
+    <span class="whatsapp-tooltip">Chatea con nosotros</span>
+  </a>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Laboratorio Dental de Circonia</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
